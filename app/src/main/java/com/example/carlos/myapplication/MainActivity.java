@@ -33,7 +33,6 @@ public class MainActivity extends AppCompatActivity {
                 tabla=i;
                 fnCalularTabla(tabla);
                 lst.setAdapter(adaptador);
-                Toast.makeText(MainActivity.this, ""+contenido[0], Toast.LENGTH_SHORT).show();
             }
 
             @Override
